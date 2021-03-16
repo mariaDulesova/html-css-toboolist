@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font
     margin: 0;
     padding:0;
 }
@@ -11,12 +12,16 @@
 }
 #header-logo{
     text-align: center;
-    margin-left:15px;
+    margin: 10px 10px 10px 30px;
+    vertical-align:middle;
+
 }
-#header-nome {
+#header-name {
     display: inline-block;
-    margin-left: 15px;
-    text-align: center;
+    margin: 10px;
+    vertical-align: middle;
+    font-size: 40px;
+    color: rgb(5,25,49);
 }
 
 /* Formattazione corpo della pagina */
@@ -33,7 +38,7 @@
     height: auto;
     background-color: white;
     margin: 0 auto;
-    padding: 20px;
+    padding: 20px 20px 5px 20px;
     border: 2px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -44,7 +49,7 @@
     height: auto;
     background-color: white;
     margin: 0 auto;
-    padding: 20px;
+    padding: 0 20px 20px 20px;
     border-top: 2px solid  rgb(223, 223, 223); 
 }
 
@@ -57,6 +62,7 @@
     border: 2px solid rgb(172, 173, 173);
     padding: 5px 10px;
     border-radius: 10px;
+    margin: 5px 0;
   
 }
 .button-colored{
@@ -67,14 +73,20 @@
     border-radius: 10px;
     border: 2px solid rgb(88, 185, 245);
     color: white;
+    margin: 5px 0;
 }
 
 /* Formattazione attivita' varie */
-.activities{
-    line-height: 50px;
-    
+h3{
+    margin-bottom: 5px;
 }
-
+ul{
+    list-style-type: none;
+    margin-top: 5px;
+}
+.activities{
+    line-height: 40px;
+}
 .activities-status{
     display: inline-block;
     height: 20px;
@@ -82,13 +94,11 @@
     line-height: 20px;
     border: 2px solid rgb(56, 150, 56);
     border-radius: 50%;
-    padding: 5px;
     text-align: center;
     color: rgb(56, 150, 56);
-    vertical-align: middle;
     margin-right: 5px;
+    font-size: 10px;
 }
-
 .activities-update{
     display: inline-block;
     height: 25px;
@@ -101,14 +111,16 @@
     background-color: lightskyblue;
     color:white;
 }
-    
+.section-list-item{
+    margin-top: 30px;
+}  
+.color-red{
+    color: rgb(197, 52, 52);
+    border-color: rgb(197, 52, 52);
+}
 #color-violet{
     background-color: violet;
     border-color: violet;
-}
-#color-red{
-    color: rgb(197, 52, 52);
-    border-color: rgb(197, 52, 52);
 }
 #color-green{
     background-color: seagreen;
@@ -124,6 +136,5 @@
 }
 #color-light-green {
     background-color: lightgreen;
-    border-color: lightgreen;
-    
+    border-color: lightgreen; 
 }

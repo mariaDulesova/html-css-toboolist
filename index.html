@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toboolist</title>
     <link rel="stylesheet" href="css/style.css">
+    
 </head>
-
+<body>
 <!-- Testata della pagina -->
 <header>
     <div id="header">
         <img src="../html-css-toboolist/img/Logo.png" alt="Logo" id="header-logo">
-        <h1 id="header-nome">Toboolist</h1>
+        <h1 id="header-name">Toboolist</h1>
     </div>
 </header>
 <!-- /Testata della pagina -->
@@ -28,36 +29,43 @@
 
         <!-- Attivita' varie -->
         <div id="task-box-main">
-              <section>
+                <!--New Task-->
+              <section class="section-list-item">
                   <h3> &#x25BE; New Task</h3>
-                  <p class="activities"><span class="activities-status">&check;</span> Quarterly Newsletter <span class="activities-update"> Editorial</span></p> 
+                  <ul>
+                    <li class="activities"><span class="activities-status">&check;</span> Quarterly Newsletter <span class="activities-update"> Editorial</span></li> 
+                  </ul>
+                  
               </section>
+              <!--/New Task-->
 
-              <section>
-                <h3> &#x25BE; Today</h3>
-                <p class="activities"><span class="activities-status">&check;</span> Recruiting blog post <span class="activities-update"> Editorial</span></p> 
-                <p class="activities"><span class="activities-status">&check;</span> Mobile app launch <span class="activities-update" id="color-violet"> Q1 Goals</span></p> 
-                <p class="activities"><span class="activities-status" id="color-red">&cross;</span> Interview John H. <span class="activities-update" id="color-green"> Recruiting</span></p> 
-                <p class="activities"><span class="activities-status">&check;</span> Summit update to mobile storefronts <span class="activities-update" id="color-orange"> Mobile</span></p> 
+              <!--Today-->
+              <section class="section-list-item">
+                    <h3> &#x25BE; Today</h3>
+                    <ul>
+                    <li class="activities"><span class="activities-status">&check;</span> Recruiting blog post <span class="activities-update"> Editorial</span></li> 
+                    <li class="activities"><span class="activities-status">&check;</span> Mobile app launch <span class="activities-update" id="color-violet"> Q1 Goals</span></li> 
+                    <li class="activities"><span class="activities-status color-red" >&cross;</span> Interview John H. <span class="activities-update" id="color-green"> Recruiting</span></li> 
+                    <li class="activities"><span class="activities-status">&check;</span> Summit update to mobile storefronts <span class="activities-update" id="color-orange"> Mobile</span></li> 
+                </ul>
               </section>
-              <section>
-                <h3> &#x25BE; Upcoming</h3>
-                <p class="activities"><span class="activities-status" id="color-red">&cross;</span> Schedule meeting with Alex </p> 
-                <p class="activities"><span class="activities-status">&check;</span> Homepage refresh <span class="activities-update" id="color-pink"> Website</span></p> 
-                <p class="activities"><span class="activities-status">&check;</span> Onboard new Sales team members <span class="activities-update" id="color-light-green"> Sales</span></p> 
-                <p class="activities"><span class="activities-status">&check;</span> Review editorial calendar <span class="activities-update"> Editorial</span></p> 
+              <!--/Today-->
+
+              <!-- Upcoming -->
+              <section class="section-list-item">
+                    <h3> &#x25BE; Upcoming</h3>
+                    <ul>
+                    <li class="activities"><span class="activities-status color-red">&cross;</span> Schedule meeting with Alex </li> 
+                    <li class="activities"><span class="activities-status">&check;</span> Homepage refresh <span class="activities-update" id="color-pink"> Website</span></li> 
+                    <li class="activities"><span class="activities-status">&check;</span> Onboard new Sales team members <span class="activities-update" id="color-light-green"> Sales</span></li> 
+                    <li class="activities"><span class="activities-status">&check;</span> Review editorial calendar <span class="activities-update"> Editorial</span></li> 
+                    </ul>
               </section>
+              <!--/Upcoming-->
         </div>
         <!-- /Attivita' varie -->
-           
-
-
-        </div>
     </div>
 </main>
-<!-- /Corpo della pagina -->
-
-<body>
-    
+<!-- /Corpo della pagina -->   
 </body>
 </html>
