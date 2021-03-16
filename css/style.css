@@ -51,6 +51,8 @@
     margin: 0 auto;
     padding: 0 20px 20px 20px;
     border-top: 2px solid  rgb(223, 223, 223); 
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 
