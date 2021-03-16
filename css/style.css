@@ -66,12 +66,12 @@
     padding: 5px 10px;
     border-radius: 10px;
     border: 2px solid rgb(88, 185, 245);
-    
+    color: white;
 }
 
 /* Formattazione attivita' varie */
 .activities{
-    line-height: 60px;
+    line-height: 50px;
     
 }
 
@@ -99,5 +99,31 @@
     text-align: center;
     font-size: 12px;
     background-color: lightskyblue;
+    color:white;
 }
     
+#color-violet{
+    background-color: violet;
+    border-color: violet;
+}
+#color-red{
+    color: rgb(197, 52, 52);
+    border-color: rgb(197, 52, 52);
+}
+#color-green{
+    background-color: seagreen;
+    border-color: seagreen;
+}
+#color-orange{
+    background-color: rgb(250, 163, 2);
+    border-color:rgb(250, 163, 2);
+}
+#color-pink{
+    background-color: palevioletred;
+    border-color: palevioletred;
+}
+#color-light-green {
+    background-color: lightgreen;
+    border-color: lightgreen;
+    
+}
